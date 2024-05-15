@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\
+C:\Users\qtazv\OneDrive\Рабочий стол\Учебная практика\App\FacultyApp\FacultyApp\obj\Debug\
 FacultyApp
 none
 false
 DEBUG;TRACE
-C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\App.xaml
-31323692178
+C:\Users\qtazv\OneDrive\Рабочий стол\Учебная практика\App\FacultyApp\FacultyApp\App.xaml
+6-1484972114
 
-111026878522
-28-464404520
-MainWindow.xaml;Windows\FacultySelectionWindow.xaml;Windows\RegisterWindow.xaml;
+14-1843510158
+281591440100
+MainWindow.xaml;Windows\FacultySelectionWindow.xaml;Windows\HomeWindow.xaml;Windows\ProfileWindow.xaml;Windows\RegisterWindow.xaml;Windows\StudentsViewWindow.xaml;
 
 False
 

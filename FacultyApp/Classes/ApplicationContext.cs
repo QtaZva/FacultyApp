@@ -11,6 +11,7 @@ namespace FacultyApp.Classes
     {
         public DbSet<Students> Students { get; set; }
         public DbSet<Faculties> Faculties { get; set; }
+        public DbSet<DeductionList> DeductionList { get; set; }
         public ApplicationContext() : base("DefaultConnection") { }
     }
 }

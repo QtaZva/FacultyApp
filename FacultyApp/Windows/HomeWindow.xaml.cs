@@ -23,5 +23,29 @@ namespace FacultyApp.Windows
         {
             InitializeComponent();
         }
+
+        private void Profile_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ProfileWindow profileWindow = new ProfileWindow();
+            profileWindow.ShowDialog();
+        }
+
+        private void ChangeFaculry_Button_Click(object sender, RoutedEventArgs e)
+        {
+            FacultySelectionWindow facultySelectionWindow = new FacultySelectionWindow();
+            facultySelectionWindow.ShowDialog();
+        }
+
+        private void StudentsView_Button_Click(object sender, RoutedEventArgs e)
+        {
+            StudentsViewWindow studentsViewWindow = new StudentsViewWindow();
+            studentsViewWindow.ShowDialog();
+        }
+
+        private void DeductianList_Button_Click(object sender, RoutedEventArgs e)
+        {
+            DeductianListViewWindow deductianListViewWindow = new DeductianListViewWindow();
+            deductianListViewWindow.ShowDialog();
+        }
     }
 }

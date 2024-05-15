@@ -46,9 +46,18 @@ namespace FacultyApp
             if (user != null)
             {
                 User.user_id = user.id;
-                FacultySelectionWindow facultySelectionWindow = new FacultySelectionWindow();
-                facultySelectionWindow.Show();
-                this.Close();
+                if(user.faculty_id == 0)
+                {
+                    FacultySelectionWindow facultySelectionWindow = new FacultySelectionWindow();
+                    facultySelectionWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    HomeWindow homeWindow = new HomeWindow();
+                    homeWindow.Show();
+                    this.Close();
+                }
             }
             else
             {

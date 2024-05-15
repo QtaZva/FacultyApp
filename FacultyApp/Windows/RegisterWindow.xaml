@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         Background="{DynamicResource MaterialDesignPaper}"
-        Title="RegisterWindow" Height="550" Width="600" Cursor="">
+        Title="RegisterWindow" Height="550" Width="600">
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
         <materialDesign:Card Width="300" Padding="0 8 0 8" materialDesign:ElevationAssist.Elevation="Dp8">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
