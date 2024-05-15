@@ -1,0 +1,26 @@
+﻿<Window x:Class="FacultyApp.Windows.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacultyApp.Windows"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignPaper}"
+        Title="RegisterWindow" Height="450" Width="500">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <materialDesign:Card Width="250" Padding="8" materialDesign:ElevationAssist.Elevation="Dp8">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Register" Style="{StaticResource MaterialDesignHeadline5TextBlock}" HorizontalAlignment="Center" Margin="10"/>
+                <TextBox x:Name="LoginTextBox" materialDesign:HintAssist.Hint="Login" materialDesign:TextFieldAssist.HasClearButton="True" Margin="10"/>
+                <PasswordBox Width="200" x:Name="PasswordTextBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True"
+                         Style="{StaticResource MaterialDesignRevealPasswordBox}" Margin="10"/>
+                <Button Content="Create an account" Click="Register_Button_Click" Margin="10" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" 
+                    Style="{StaticResource MaterialDesignPaperButton}"/>
+                <TextBlock Text="Have an account?" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignCharacterCounterTextBlock}" Margin="0 5 0 0"/>
+                <Button Content="Log in" Click="Login_Button_Click" Margin="10 0 10 10" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" 
+                    Style="{StaticResource MaterialDesignPaperButton}"/>
+            </StackPanel>
+        </materialDesign:Card>
+    </StackPanel>
+</Window>
