@@ -15,10 +15,10 @@
                 <TextBox x:Name="LoginTextBox" materialDesign:HintAssist.Hint="Login" materialDesign:TextFieldAssist.HasClearButton="True" Margin="10"/>
                 <PasswordBox Width="200" x:Name="PasswordTextBox" materialDesign:HintAssist.Hint="Password" materialDesign:TextFieldAssist.HasClearButton="True"
                              Style="{StaticResource MaterialDesignRevealPasswordBox}" Margin="10"/>
-                <Button Content="Log in" Click="Login_Button_Click" Margin="10" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" 
+                <Button Content="Log in" Click="Login_Button_Click" Margin="10" 
                         Style="{StaticResource MaterialDesignPaperButton}"/>
                 <TextBlock Text="Don't have an account?" HorizontalAlignment="Center" Style="{StaticResource MaterialDesignCharacterCounterTextBlock}" Margin="0 5 0 0"/>
-                <Button Content="Create an account" Click="CreateAccount_Button_Click" Margin="10 0 10 10" IsEnabled="{Binding DataContext.ControlsEnabled, RelativeSource={RelativeSource FindAncestor, AncestorType=Window}}" 
+                <Button Content="Create an account" Click="CreateAccount_Button_Click" Margin="10 0 10 10"
                         Style="{StaticResource MaterialDesignPaperButton}"/>
             </StackPanel>
         </materialDesign:Card>
