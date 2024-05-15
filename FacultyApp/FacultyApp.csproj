@@ -96,7 +96,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Classes\ApplicationContext.cs" />
+    <Compile Include="Classes\Faculties.cs" />
     <Compile Include="Classes\Students.cs" />
+    <Compile Include="Classes\User.cs" />
+    <Compile Include="Windows\FacultySelectionWindow.xaml.cs">
+      <DependentUpon>FacultySelectionWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\HomeWindow.xaml.cs">
+      <DependentUpon>HomeWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\RegisterWindow.xaml.cs">
       <DependentUpon>RegisterWindow.xaml</DependentUpon>
     </Compile>
@@ -112,6 +120,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\FacultySelectionWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\HomeWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\RegisterWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

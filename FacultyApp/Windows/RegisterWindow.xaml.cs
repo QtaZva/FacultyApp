@@ -73,11 +73,15 @@ namespace FacultyApp.Windows
             {
                 if(db.Students.Where(s => s.Login == login).FirstOrDefault() == null)
                 {
-                    Students newstudent = new Students(name, surname, patronymic, birthdayDate, login, password);
+                    Students newstudent = new Students(name, surname, patronymic, birthdayDate, login, password, 0);
 
                     db.Students.Add(newstudent);
                     db.SaveChanges();
                     MessageBox.Show("Account created");
+
+                    MainWindow mainWindow = new MainWindow();
+                    mainWindow.Show();
+                    this.Close();
                 }
                 else
                 {

@@ -73,3 +73,5 @@ C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\
 C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\FacultyApp.pdb
 C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\Windows\RegisterWindow.g.cs
 C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\Windows\RegisterWindow.baml
+C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\Windows\FacultySelectionWindow.g.cs
+C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\obj\Debug\Windows\FacultySelectionWindow.baml

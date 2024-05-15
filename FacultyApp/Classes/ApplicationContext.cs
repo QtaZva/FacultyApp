@@ -10,6 +10,7 @@ namespace FacultyApp.Classes
     internal class ApplicationContext: DbContext
     {
         public DbSet<Students> Students { get; set; }
+        public DbSet<Faculties> Faculties { get; set; }
         public ApplicationContext() : base("DefaultConnection") { }
     }
 }

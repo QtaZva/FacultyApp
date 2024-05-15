@@ -11,6 +11,7 @@ namespace FacultyApp.Classes
     {
         public int id {  get; set; }
         public string name, surname, patronymic, birthdayDate, login, password;
+        public int faculty_id;
 
         public string Name
         {
@@ -42,9 +43,14 @@ namespace FacultyApp.Classes
             get { return password; }
             set { password = value; }
         }
+        public int Faculty_id
+        {
+            get { return faculty_id; }
+            set { faculty_id = value; }
+        }
         public Students() { }
 
-        public Students(string name, string surname, string patronymic, string birthdayDate, string login, string password)
+        public Students(string name, string surname, string patronymic, string birthdayDate, string login, string password, int faculty_id)
         {
             this.name = name;
             this.surname = surname;
@@ -52,6 +58,7 @@ namespace FacultyApp.Classes
             this.birthdayDate = birthdayDate;
             this.login = login;
             this.password = password;
+            this.faculty_id = faculty_id;
         }
     }
 }

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\qtazv\OneDrive\Рабочий стол\Практика учебная\App\FacultyApp\FacultyApp\App.xaml
-2696703969
+41587286144
 
-9-1572672044
+13-1506510166
 28-464404520
-MainWindow.xaml;Windows\RegisterWindow.xaml;
+MainWindow.xaml;Windows\FacultySelectionWindow.xaml;Windows\HomeWindow.xaml;Windows\RegisterWindow.xaml;
 
-False
+True
 

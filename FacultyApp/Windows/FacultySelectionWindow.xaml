@@ -1,0 +1,30 @@
+﻿<Window x:Class="FacultyApp.Windows.FacultySelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacultyApp.Windows"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignPaper}"
+        Title="Faculty selection" Height="450" Width="800">
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
+        <materialDesign:Card Padding="8" materialDesign:ElevationAssist.Elevation="Dp8">
+            <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+                <TextBlock Text="Select faculty" Style="{StaticResource MaterialDesignHeadline5TextBlock}" HorizontalAlignment="Center" Margin="10"/>
+                <ListBox x:Name="FacultiesListBox" Width="400" Height="250" ScrollViewer.VerticalScrollBarVisibility="Visible">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Vertical">
+                                <TextBlock Text="{Binding Name}"/>
+                                <TextBlock Text="{Binding Desc}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+                <Button Content="Select faculty" Click="SelectFaculty_Button_Click" Margin="10"
+                    Style="{StaticResource MaterialDesignPaperButton}"/>
+            </StackPanel>
+        </materialDesign:Card>
+    </StackPanel>
+</Window>

@@ -9,7 +9,7 @@
         Background="{DynamicResource MaterialDesignPaper}"
         Title="Login" Height="450" Width="500">
     <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <materialDesign:Card Width="250" Padding="8" materialDesign:ElevationAssist.Elevation="Dp8">
+        <materialDesign:Card Width="250" Padding="0 8 0 8" materialDesign:ElevationAssist.Elevation="Dp8">
             <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
                 <TextBlock Text="Log in" Style="{StaticResource MaterialDesignHeadline5TextBlock}" HorizontalAlignment="Center" Margin="10"/>
                 <TextBox x:Name="LoginTextBox" materialDesign:HintAssist.Hint="Login" materialDesign:TextFieldAssist.HasClearButton="True" Margin="10"/>

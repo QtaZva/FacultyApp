@@ -45,7 +45,10 @@ namespace FacultyApp
 
             if (user != null)
             {
-                MessageBox.Show("Success");
+                User.user_id = user.id;
+                FacultySelectionWindow facultySelectionWindow = new FacultySelectionWindow();
+                facultySelectionWindow.Show();
+                this.Close();
             }
             else
             {
