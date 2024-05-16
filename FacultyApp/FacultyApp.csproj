@@ -96,9 +96,39 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Classes\ApplicationContext.cs" />
+    <Compile Include="Classes\DeductionList.cs" />
+    <Compile Include="Classes\Dekans.cs" />
+    <Compile Include="Classes\ExamList.cs" />
     <Compile Include="Classes\Faculties.cs" />
     <Compile Include="Classes\Students.cs" />
     <Compile Include="Classes\User.cs" />
+    <Compile Include="Windows\AdminDeductianList.xaml.cs">
+      <DependentUpon>AdminDeductianList.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminDekanWindow.xaml.cs">
+      <DependentUpon>AdminDekanWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminExamViewWindow.xaml.cs">
+      <DependentUpon>AdminExamViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminFacultyWindow.xaml.cs">
+      <DependentUpon>AdminFacultyWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminPanelWindow.xaml.cs">
+      <DependentUpon>AdminPanelWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminProfileWindow.xaml.cs">
+      <DependentUpon>AdminProfileWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\AdminStudentViewWindow.xaml.cs">
+      <DependentUpon>AdminStudentViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\DeductianListViewWindow.xaml.cs">
+      <DependentUpon>DeductianListViewWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\ExamListViewWindow.xaml.cs">
+      <DependentUpon>ExamListViewWindow.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Windows\FacultySelectionWindow.xaml.cs">
       <DependentUpon>FacultySelectionWindow.xaml</DependentUpon>
     </Compile>
@@ -126,6 +156,42 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Windows\AdminDeductianList.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminDekanWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminExamViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminFacultyWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminPanelWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminProfileWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\AdminStudentViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\DeductianListViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\ExamListViewWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Windows\FacultySelectionWindow.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

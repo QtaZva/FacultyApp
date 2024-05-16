@@ -61,7 +61,20 @@ namespace FacultyApp
             }
             else
             {
-                MessageBox.Show("Login or password was entered incorrectly");
+                Dekans dekan = new Dekans();
+                dekan = db.Dekans.Where(u => u.Login == login && u.Password == password).FirstOrDefault();
+
+                if(dekan != null)
+                {
+                    User.user_id= dekan.id;
+                    AdminPanelWindow adminPanelWindow = new AdminPanelWindow();
+                    adminPanelWindow.Show();
+                    this.Close();
+                }
+                else
+                {
+                    MessageBox.Show("Login or password was entered incorrectly");
+                }
             }
         }
 

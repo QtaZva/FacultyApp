@@ -5,8 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FacultyApp.Windows"
         mc:Ignorable="d"
-        Title="DeductianListViewWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Background="{DynamicResource MaterialDesignPaper}"
+        Title="Deductian list" Height="450" Width="800">
+    <DataGrid x:Name="StudentsDataGrid" CanUserAddRows="False" SelectionMode="Extended" SelectionUnit="Cell"></DataGrid>
 </Window>

@@ -47,5 +47,11 @@ namespace FacultyApp.Windows
             DeductianListViewWindow deductianListViewWindow = new DeductianListViewWindow();
             deductianListViewWindow.ShowDialog();
         }
+
+        private void ExamList_Button_Click(object sender, RoutedEventArgs e)
+        {
+            ExamListViewWindow examListViewWindow = new ExamListViewWindow();
+            examListViewWindow.ShowDialog();
+        }
     }
 }

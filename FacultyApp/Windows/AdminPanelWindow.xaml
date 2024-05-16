@@ -1,0 +1,24 @@
+﻿<Window x:Class="FacultyApp.Windows.AdminPanelWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FacultyApp.Windows"
+        mc:Ignorable="d"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        Title="Admin panel" Height="450" Width="870">
+    <StackPanel VerticalAlignment="Top" HorizontalAlignment="Left" Orientation="Horizontal">
+        <Button Content="Profile" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="Profile_Button_Click"/>
+        <Button Content="Edit students" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="Students_Button_Click"/>
+        <Button Content="Edit exams" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="Exams_Button_Click"/>
+        <Button Content="Edit deducation list" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="Deducation_Button_Click"/>
+        <Button Content="Edit Faculty list" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="faculty_Button_Click"/>
+        <Button Content="Add dekan" Margin="10" 
+                Style="{StaticResource MaterialDesignPaperButton}" Click="dekan_Button_Click"/>
+    </StackPanel>
+</Window>

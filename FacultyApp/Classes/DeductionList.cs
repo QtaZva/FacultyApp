@@ -8,6 +8,7 @@ namespace FacultyApp.Classes
 {
     internal class DeductionList
     {
+        public int id {  get; set; }
         public int studentId;
         public int StudentId
         {
